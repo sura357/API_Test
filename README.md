@@ -35,12 +35,13 @@ api.php:將資料存入資料庫
 connect.php:連接資料庫
 inputpage.php:用於輸入任意字串，並送出至api.php進行處理
 returnHaxData.php:將資料從資料庫撈出並回傳
+returnRandomID.php:取得所有id並回傳
 
 ## APItest/read：
 對應題目第二點
 使用方式：
 1. 開啟APItest/read/readAPI/readAPI/bin/Debug/readAPI.exe
-2. 輸入id
+2. 輸入id並送出，或是按下隨機按鈕
 3. 顯示結果
 
 檔案說明：
